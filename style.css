@@ -1,40 +1,86 @@
-*{ font-family: 'Patrick Hand', cursive;
+body{
+font-family: sans-serif;
+margin: 0px;
+}
+section{
+
+    height: 600px;
+}
+.first-s{
+background: url("header-bg.png");
+background-repeat: no-repeat;
 
 }
-body{
-margin: 0;
-}
-.bg-top{
-    background-image: url(top-banner.png);
-}
 h1{
-    font-size: 50px;
+    font-size: 50px ;
+    color: crimson;
 }
-.name-h{
-    color: orange;
+h2{
+    font-size: 40px;
+
 }
-.col-6{
-    width: 50%;
-    float: left;
+.half-width{
+width: 30%;
+margin: 10%;
+padding: 0%;
+float: left;
 }
-img{
+.half-width img{
     width: 100%;
 }
 button{
-    border: none;
-    padding: 20px 40px;
-    border-radius: 20%;
-    background: orangered;
-    box-shadow: 3px 4px 5px seagreen;
-    cursor: pointer;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 10px;
+        background: tomato;    
 }
 button:hover{
-    background: brown;
+    color: yellow;
+    background-color: yellowgreen;
 }
 button a{
     text-decoration: none;
-    font-size: 30px;
+    color: darkblue;
+    padding: 10px 20px;
     font-weight: 800;
-    color: rgb(14, 204, 14);
 
+}
+button a:hover{color: teal;}
+.second-s{
+    background-image: url("personal-website/biography-bg.png");
+    background-repeat: no-repeat;
+}
+.work{
+
+}
+.work-h{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40px;
+}
+.photo{
+    width: 25%;
+    margin: 4%;
+    
+    float: left;
+    }
+.photo img{
+    width: 100%;
+    
+}
+.last-s{
+    text-align: center;
+    justify-content: center;
+}
+.spacial{
+    
+    background-color: tomato;
+    border-radius: 20px;
+    width: 50% ;
+margin-left: 250px;
+margin-top: 50px;
+}
+footer{
+    text-align: center;
+    
 }
